@@ -27,6 +27,7 @@ class TicTacToe:
     def button_click(self, i, j):
         # Get a reference to the button that was clicked
         button = self.buttons[i][j]
+        print(button)
         # Check if the button is already marked (i.e. its text is not "")
         if button["text"] == "":
             # If the button is not marked, mark it with the current player's symbol (X or O)
